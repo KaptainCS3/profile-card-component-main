@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: #19a2ae;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main .card {
+  width: 350px;
+  height: 380px;
+}
+
+.main .card .card-bg {
+  height: 40%;
+}
+
+.main .card .card-bg img {
+  border-radius: 10px 10px 0 0;
+  height: 100%;
+  width: 100%;
+}
+
+.main .card .avatar img {
+  position: absolute;
+  top: 43%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border: 4px solid #fff;
+}
+
+.main .card .content {
+  background: #fff;
+  height: 70%;
+  border-radius: 0 0 10px 10px;
+}
+
+.main .card .content .abt_avatar {
+  border-bottom: 0.3px solid #969696;
+  padding-bottom: 30px;
+}
+
+.main .card .content .abt_avatar .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 70px;
+  font-size: 18px;
+  color: #2d3248;
+  font-weight: 700;
+}
+
+.main .card .content .abt_avatar .hero .age {
+  padding-left: 10px;
+  color: #6a6f81;
+  font-weight: 400;
+}
+
+.main .card .content .abt_avatar .ci {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+}
+
+.main .card .content .abt_avatar .ci .city {
+  font-weight: 400;
+  color: #969696;
+}
+
+.main .card .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 35px 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main .card .footer .avatar_stats {
+  text-align: center;
+}
+
+.main .card .footer .avatar_stats .values {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d3248;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.main .card .footer .avatar_stats .stats {
+  font-size: 15px;
+  font-weight: 400;
+  color: #969696;
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    padding: 0 15px;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 30vw bottom 45vh, left 40vw top 50vh;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 376px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100vh;
+    padding: 0 15px;
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat;
+    background-position: right 30vw bottom 45vh, left 40vw top 50vh;
+    background-size: cover;
+  }
+}
+/*# sourceMappingURL=style.css.map */
